@@ -3,7 +3,9 @@ import './Testimonial.scss'
 
 const Testimonial = () => {
   return (
-    <div>Testimonial</div>
+    <div> 
+      {/* Testimonials yet to be implemented */}
+    </div>
   )
 }
 
