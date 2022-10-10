@@ -3,6 +3,7 @@ import { images } from '../../constants'
 import './Header.scss'
 import { motion } from 'framer-motion'
 import {AppWrap} from '../../wrapper'
+import { AiFillGithub } from 'react-icons/ai'
 
 const scaleVariants = {
   whileInView: {
@@ -35,6 +36,11 @@ const Header = () => {
           <div className="tag-cmp app__flex">
             <p className="p-text">Software Developer</p>
             <p className="p-text">Computer Science undergrad</p>
+          </div>
+
+          <div className='tag-cmp app__flex'>
+            <p className='p-text'>Checkout my GitHub</p>
+            <a href="https://github.com/MelvinTowo" target='_blank' rel='noreferrer' className='p-text'>Right Here!</a>
           </div>
         </div>
       </motion.div>
