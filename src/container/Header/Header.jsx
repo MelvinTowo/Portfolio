@@ -3,7 +3,7 @@ import { images } from '../../constants'
 import './Header.scss'
 import { motion } from 'framer-motion'
 import {AppWrap} from '../../wrapper'
-import { AiFillGithub } from 'react-icons/ai'
+
 
 const scaleVariants = {
   whileInView: {
